@@ -17,7 +17,7 @@ namespace BaseIdentityUpSchoolDataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
-            dbContextOptionsBuilder.UseSqlServer("server=DESKTOP-H7B28ES;database=DbBaseIdentity; integrated security=true");
+            dbContextOptionsBuilder.UseSqlServer("server=**********;database=DbBaseIdentity; integrated security=true");
         }
 
         public DbSet<Product> Products { get; set; }
